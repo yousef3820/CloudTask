@@ -9,9 +9,7 @@ pipeline {
         stage('Execute Commands') {
             steps {
                 // Step 2: Execute a Windows batch command
-                bat '''@ECHO OFF
-                dir
-                PAUSE'''
+                bat 'CloudTask.bat'
             }
         }
     }
