@@ -9,8 +9,7 @@ pipeline {
         stage('Execute Commands') {
             steps {
                 // Step 2: Execute a Windows batch command
-                bat 'CloudTask.bat'
-            }
+                bat 'CloudTask.bat'          
         }
     }
 }
